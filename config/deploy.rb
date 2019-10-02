@@ -10,7 +10,7 @@ set :repo_url, "git@github.com:RodriguesLs/cap_test.git"
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/var/www/cap_test"
 
-append :linked_files, "config/database.yml", "config/master.key"
+append :linked_files, "config/database.yml" #, "config/master.key"
 append :linked_dirs, "log", "tmp"
  
 set :keep_releases, 5
